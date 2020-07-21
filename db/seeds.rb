@@ -8,7 +8,7 @@
 
 Guest.destroy_all
 
-Guest.create(name: "Jeffrey Epstein", age: 66, risk: 5, status: false, image: "")
+Guest.create(name: "Jeffrey Epstein", age: 66, risk: 5, status: false, image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Epstein_Final_Mugshot.png/180px-Epstein_Final_Mugshot.png")
 Guest.create(name: "Ghislaine Maxwell", age: 58, risk: 5, status: true, image: "")
 Guest.create(name: "Bill Clinton", age: 73, risk: 1, status: true, image: "")
 Guest.create(name: "Hillary Clinton", age: 72, risk: 1, status: true, image: "")
